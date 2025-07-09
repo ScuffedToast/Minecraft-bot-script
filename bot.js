@@ -1,8 +1,9 @@
+// USE IN OFFLINE MODE
 const mineflayer = require('mineflayer');
 
 function createBot(name) {
   const bot = mineflayer.createBot({
-    host: 'localhost',   // change to your server IP or localhost
+    host: 'localhost',   
     port: 25565,
     username: name,
     plugins: {
